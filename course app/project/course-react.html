@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React - The Complete Guide - MyCourseHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="course-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MyCourseHub</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#courses">Courses</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Course Header -->
+    <section class="course-header">
+        <div class="container">
+            <div class="course-header-content">
+                <div class="course-info">
+                    <h1>React - The Complete Guide</h1>
+                    <p class="instructor">By Maximilian Schwarzmüller & React Experts</p>
+                    <p class="description">Master React.js from scratch! Learn Hooks, Redux, React Router, Next.js, and build amazing user interfaces!</p>
+                    <div class="course-stats">
+                        <span><i class="fas fa-star"></i> 4.6 (756K students)</span>
+                        <span><i class="fas fa-clock"></i> 40+ hours</span>
+                        <span><i class="fas fa-video"></i> 22 lessons</span>
+                        <span><i class="fas fa-certificate"></i> Certificate included</span>
+                    </div>
+                </div>
+                <div class="course-video">
+                    <iframe id="mainVideo" src="https://www.youtube.com/embed/bMknfKXIFA8?enablejsapi=1&rel=0&modestbranding=1&playsinline=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content -->
+    <section class="course-content">
+        <div class="container">
+            <div class="content-layout">
+                <!-- Video Playlist -->
+                <div class="video-playlist">
+                    <h2>Course Curriculum</h2>
+                    
+                    <div class="section-group">
+                        <h3>Section 1: React Fundamentals</h3>
+                        <div class="video-item active" onclick="playVideo('bMknfKXIFA8', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>React Course - Beginner's Tutorial</h4>
+                                <span>2:25:39</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('bMknfKXIFA8', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>React Tutorial for Beginners</h4>
+                                <span>1:48:18</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('w7ejDZ8SWv8', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>React Crash Course 2024</h4>
+                                <span>1:48:49</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 2: React Hooks</h3>
+                        <div class="video-item" onclick="playVideo('O6P86uwfdR0', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>React Hooks Tutorial</h4>
+                                <span>1:21:00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('TNhaISOUy6Q', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>useState and useEffect Hooks</h4>
+                                <span>38:32</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 3: State Management</h3>
+                        <div class="video-item" onclick="playVideo('CVpUuw9XSjY', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Redux Tutorial - State Management</h4>
+                                <span>2:25:04</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('9boMnm5X9ak', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Context API Tutorial</h4>
+                                <span>1:03:17</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 4: React Router</h3>
+                        <div class="video-item" onclick="playVideo('Law7wfdg_ls', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>React Router Tutorial</h4>
+                                <span>1:35:47</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 5: Next.js Framework</h3>
+                        <div class="video-item" onclick="playVideo('mTz0GXj8NN0', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Next.js Tutorial for Beginners</h4>
+                                <span>2:54:52</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('1WmNXEVia8I', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Next.js 13 Full Course</h4>
+                                <span>9:01:54</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 6: React Projects</h3>
+                        <div class="video-item" onclick="playVideo('a_7Z7C_JCyo', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Build 15 React Projects</h4>
+                                <span>9:10:05</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('b9eMGE7QtTk', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>React Netflix Clone</h4>
+                                <span>2:14:17</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Sidebar -->
+                <div class="course-sidebar">
+                    <div class="progress-card">
+                        <h3>Your Progress</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 0%"></div>
+                        </div>
+                        <span class="progress-text">0% Complete</span>
+                    </div>
+
+                    <div class="course-features">
+                        <h3>What You'll Learn</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> React fundamentals & JSX</li>
+                            <li><i class="fas fa-check"></i> Components & Props</li>
+                            <li><i class="fas fa-check"></i> State & Event Handling</li>
+                            <li><i class="fas fa-check"></i> React Hooks (useState, useEffect)</li>
+                            <li><i class="fas fa-check"></i> Redux for state management</li>
+                            <li><i class="fas fa-check"></i> React Router for navigation</li>
+                            <li><i class="fas fa-check"></i> Next.js framework</li>
+                            <li><i class="fas fa-check"></i> Build real-world projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="course-resources">
+                        <h3>Resources</h3>
+                        <a href="#" class="resource-link"><i class="fas fa-download"></i> Create React App</a>
+                        <a href="#" class="resource-link"><i class="fas fa-code"></i> Project Source Code</a>
+                        <a href="#" class="resource-link"><i class="fas fa-book"></i> React Documentation</a>
+                        <a href="#" class="resource-link"><i class="fas fa-users"></i> React Community</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        function playVideo(videoId, element) {
+            document.getElementById('mainVideo').src = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&rel=0&modestbranding=1&playsinline=1&autoplay=1`;
+            document.querySelectorAll('.video-item').forEach(item => item.classList.remove('active'));
+            element.classList.add('active');
+            
+            const totalVideos = document.querySelectorAll('.video-item').length;
+            const watchedVideos = Array.from(document.querySelectorAll('.video-item')).indexOf(element) + 1;
+            const progress = (watchedVideos / totalVideos) * 100;
+            
+            document.querySelector('.progress').style.width = progress + '%';
+            document.querySelector('.progress-text').textContent = Math.round(progress) + '% Complete';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<svg width="400" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="awsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#232f3e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff9900;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#awsBg)"/>
+  
+  <!-- AWS logo curve -->
+  <path d="M 80 120 Q 200 80 320 120" stroke="#ff9900" stroke-width="4" fill="none"/>
+  <path d="M 310 115 L 320 120 L 310 125" stroke="#ff9900" stroke-width="3" fill="none"/>
+  
+  <!-- Cloud services icons -->
+  <rect x="100" y="60" width="25" height="20" fill="rgba(255,255,255,0.3)" rx="3"/>
+  <rect x="140" y="50" width="25" height="20" fill="rgba(255,255,255,0.3)" rx="3"/>
+  <rect x="180" y="55" width="25" height="20" fill="rgba(255,255,255,0.3)" rx="3"/>
+  <rect x="220" y="45" width="25" height="20" fill="rgba(255,255,255,0.3)" rx="3"/>
+  <rect x="260" y="60" width="25" height="20" fill="rgba(255,255,255,0.3)" rx="3"/>
+  
+  <!-- Service labels -->
+  <text x="112" y="95" font-family="Arial" font-size="8" fill="white" text-anchor="middle">EC2</text>
+  <text x="152" y="85" font-family="Arial" font-size="8" fill="white" text-anchor="middle">S3</text>
+  <text x="192" y="90" font-family="Arial" font-size="8" fill="white" text-anchor="middle">RDS</text>
+  <text x="232" y="80" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Lambda</text>
+  <text x="272" y="95" font-family="Arial" font-size="8" fill="white" text-anchor="middle">VPC</text>
+  
+  <!-- Main text -->
+  <text x="200" y="150" font-family="Inter, Arial" font-size="32" font-weight="700" fill="white" text-anchor="middle">AWS</text>
+  <text x="200" y="175" font-family="Inter, Arial" font-size="16" fill="rgba(255,255,255,0.9)" text-anchor="middle">Solutions Architect</text>
+  <text x="200" y="200" font-family="Inter, Arial" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle">Cloud Computing • EC2 • S3 • Lambda • Certification</text>
+</svg>

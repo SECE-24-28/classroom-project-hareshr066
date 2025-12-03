@@ -1,0 +1,23 @@
+<svg width="400" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="reactBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#20232a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#282c34;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#reactBg)"/>
+  
+  <!-- React logo -->
+  <circle cx="200" cy="110" r="30" fill="none" stroke="#61dafb" stroke-width="3"/>
+  <circle cx="200" cy="110" r="50" fill="none" stroke="#61dafb" stroke-width="2" opacity="0.6"/>
+  <circle cx="200" cy="110" r="70" fill="none" stroke="#61dafb" stroke-width="2" opacity="0.4"/>
+  <circle cx="200" cy="110" r="6" fill="#61dafb"/>
+  
+  <!-- Component brackets -->
+  <text x="120" y="60" font-family="monospace" font-size="24" fill="#61dafb" opacity="0.7">&lt;/&gt;</text>
+  <text x="260" y="60" font-family="monospace" font-size="24" fill="#61dafb" opacity="0.7">&lt;/&gt;</text>
+  
+  <!-- Main text -->
+  <text x="200" y="180" font-family="Inter, Arial" font-size="28" font-weight="700" fill="white" text-anchor="middle">React.js</text>
+  <text x="200" y="200" font-family="Inter, Arial" font-size="14" fill="rgba(255,255,255,0.8)" text-anchor="middle">Build Interactive UIs • Hooks • Redux • Next.js</text>
+</svg>

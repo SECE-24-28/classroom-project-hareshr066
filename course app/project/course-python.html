@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Python Bootcamp - MyCourseHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="course-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MyCourseHub</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#courses">Courses</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Course Header -->
+    <section class="course-header">
+        <div class="container">
+            <div class="course-header-content">
+                <div class="course-info">
+                    <h1>Complete Python Bootcamp</h1>
+                    <p class="instructor">By Dr. Angela Yu & Python Experts</p>
+                    <p class="description">Master Python programming from zero to hero. Learn data science, web development, automation, and build real-world projects!</p>
+                    <div class="course-stats">
+                        <span><i class="fas fa-star"></i> 4.9 (2.1M students)</span>
+                        <span><i class="fas fa-clock"></i> 45+ hours</span>
+                        <span><i class="fas fa-video"></i> 25 lessons</span>
+                        <span><i class="fas fa-certificate"></i> Certificate included</span>
+                    </div>
+                </div>
+                <div class="course-video">
+                    <iframe id="mainVideo" src="https://www.youtube.com/embed/rfscVS0vtbw?enablejsapi=1&rel=0&modestbranding=1&playsinline=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content -->
+    <section class="course-content">
+        <div class="container">
+            <div class="content-layout">
+                <!-- Video Playlist -->
+                <div class="video-playlist">
+                    <h2>Course Curriculum</h2>
+                    
+                    <div class="section-group">
+                        <h3>Section 1: Python Basics</h3>
+                        <div class="video-item active" onclick="playVideo('rfscVS0vtbw', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Python Tutorial - Full Course for Beginners</h4>
+                                <span>4:26:52</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('rfscVS0vtbw', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Learn Python - Full Course for Beginners</h4>
+                                <span>4:20:00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('8DvywoWv6fI', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Python Programming Tutorial</h4>
+                                <span>6:14:07</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 2: Data Structures</h3>
+                        <div class="video-item" onclick="playVideo('WGJJIrtnfpk', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Python Lists, Tuples, Sets & Dictionaries</h4>
+                                <span>1:15:30</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('daefaLgNkw0', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Python Data Structures - Full Course</h4>
+                                <span>12:52:36</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 3: Object-Oriented Programming</h3>
+                        <div class="video-item" onclick="playVideo('Ej_02ICOIgs', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Python OOP Tutorial - Classes and Objects</h4>
+                                <span>52:07</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('ZDa-Z5JzLYM', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Object Oriented Programming with Python</h4>
+                                <span>1:34:44</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 4: Web Development with Python</h3>
+                        <div class="video-item" onclick="playVideo('Z1RJmh_OqeA', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Flask Tutorial - Python Web Development</h4>
+                                <span>1:47:05</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('F5mRW0jo-U4', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Django Tutorial - Full Course</h4>
+                                <span>4:22:34</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 5: Data Science & Machine Learning</h3>
+                        <div class="video-item" onclick="playVideo('ua-CiDNNj30', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Data Science Tutorial - Python & Pandas</h4>
+                                <span>1:00:27</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('7eh4d6sabA0', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Machine Learning with Python</h4>
+                                <span>2:25:17</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Sidebar -->
+                <div class="course-sidebar">
+                    <div class="progress-card">
+                        <h3>Your Progress</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 0%"></div>
+                        </div>
+                        <span class="progress-text">0% Complete</span>
+                    </div>
+
+                    <div class="course-features">
+                        <h3>What You'll Learn</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Python fundamentals and syntax</li>
+                            <li><i class="fas fa-check"></i> Data structures and algorithms</li>
+                            <li><i class="fas fa-check"></i> Object-oriented programming</li>
+                            <li><i class="fas fa-check"></i> Web development with Flask/Django</li>
+                            <li><i class="fas fa-check"></i> Data science and machine learning</li>
+                            <li><i class="fas fa-check"></i> Build real-world projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="course-resources">
+                        <h3>Resources</h3>
+                        <a href="#" class="resource-link"><i class="fas fa-download"></i> Download Python</a>
+                        <a href="#" class="resource-link"><i class="fas fa-code"></i> Code Examples</a>
+                        <a href="#" class="resource-link"><i class="fas fa-book"></i> Documentation</a>
+                        <a href="#" class="resource-link"><i class="fas fa-users"></i> Community Forum</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        function playVideo(videoId, element) {
+            // Update main video
+            document.getElementById('mainVideo').src = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&rel=0&modestbranding=1&playsinline=1&autoplay=1`;
+            
+            // Update active state
+            document.querySelectorAll('.video-item').forEach(item => item.classList.remove('active'));
+            element.classList.add('active');
+            
+            // Update progress
+            const totalVideos = document.querySelectorAll('.video-item').length;
+            const watchedVideos = Array.from(document.querySelectorAll('.video-item')).indexOf(element) + 1;
+            const progress = (watchedVideos / totalVideos) * 100;
+            
+            document.querySelector('.progress').style.width = progress + '%';
+            document.querySelector('.progress-text').textContent = Math.round(progress) + '% Complete';
+        }
+    </script>
+</body>
+</html>

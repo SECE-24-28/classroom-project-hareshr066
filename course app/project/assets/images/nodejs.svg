@@ -1,0 +1,29 @@
+<svg width="400" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nodeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#68a063;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#nodeBg)"/>
+  
+  <!-- Node.js hexagon shape -->
+  <polygon points="200,60 230,75 230,105 200,120 170,105 170,75" fill="#68a063" opacity="0.8"/>
+  <polygon points="200,80 220,90 220,110 200,120 180,110 180,90" fill="rgba(255,255,255,0.2)"/>
+  
+  <!-- Server icons -->
+  <rect x="100" y="140" width="40" height="25" fill="rgba(255,255,255,0.3)" rx="3"/>
+  <rect x="160" y="140" width="40" height="25" fill="rgba(255,255,255,0.3)" rx="3"/>
+  <rect x="220" y="140" width="40" height="25" fill="rgba(255,255,255,0.3)" rx="3"/>
+  <rect x="280" y="140" width="40" height="25" fill="rgba(255,255,255,0.3)" rx="3"/>
+  
+  <!-- Connection lines -->
+  <line x1="200" y1="120" x2="120" y2="140" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <line x1="200" y1="120" x2="180" y2="140" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <line x1="200" y1="120" x2="240" y2="140" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <line x1="200" y1="120" x2="300" y2="140" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  
+  <!-- Main text -->
+  <text x="200" y="190" font-family="Inter, Arial" font-size="26" font-weight="700" fill="white" text-anchor="middle">Node.js</text>
+  <text x="200" y="210" font-family="Inter, Arial" font-size="13" fill="rgba(255,255,255,0.9)" text-anchor="middle">Backend Development • Express • MongoDB • APIs</text>
+</svg>

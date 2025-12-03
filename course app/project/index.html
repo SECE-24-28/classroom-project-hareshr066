@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCourseHub - Learn Anything, Anytime</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MyCourseHub</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="dashboard.html" class="dashboard-link"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="login.html" class="login-btn-nav">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Learn Anything. Anytime. From Anywhere.</h1>
+            <p>Join millions of learners and advance your skills with our expert-led courses</p>
+            <button class="cta-btn" onclick="document.getElementById('courses').scrollIntoView({behavior: 'smooth'})"><i class="fas fa-play"></i> Start Learning</button>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2>Popular Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <img src="assets/images/python.svg" alt="Python Course">
+                    <div class="course-info">
+                        <h3>Complete Python Bootcamp</h3>
+                        <p class="instructor">By Dr. Angela Yu</p>
+                        <p class="description">Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!</p>
+                        <div class="course-meta">
+                            <span class="rating">★★★★★ 4.9</span>
+                            <span class="students">2.1M students</span>
+                            <span class="price">$89.99</span>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="preview-btn" onclick="openModal('rfscVS0vtbw')">Watch Preview</button>
+                            <button class="start-btn" onclick="window.location.href='course-python.html'">Start Course</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="assets/images/webdev.svg" alt="Web Development Course">
+                    <div class="course-info">
+                        <h3>The Complete Web Developer Course</h3>
+                        <p class="instructor">By Rob Percival</p>
+                        <p class="description">Learn Web Development by building 25 websites and mobile apps using HTML, CSS, Javascript, PHP, Python, MySQL & more!</p>
+                        <div class="course-meta">
+                            <span class="rating">★★★★☆ 4.5</span>
+                            <span class="students">890K students</span>
+                            <span class="price">$94.99</span>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="preview-btn" onclick="openModal('UB1O30fR-EE')">Watch Preview</button>
+                            <button class="start-btn" onclick="window.location.href='course-webdev.html'">Start Course</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="assets/images/datascience.svg" alt="Data Science Course">
+                    <div class="course-info">
+                        <h3>Data Science A-Z™: Real-Life Data Science</h3>
+                        <p class="instructor">By Kirill Eremenko</p>
+                        <p class="description">Learn Data Science step by step through real Analytics examples. Data Mining, Modeling, Tableau Visualization and more!</p>
+                        <div class="course-meta">
+                            <span class="rating">★★★★★ 4.6</span>
+                            <span class="students">425K students</span>
+                            <span class="price">$199.99</span>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="preview-btn" onclick="openModal('ua-CiDNNj30')">Watch Preview</button>
+                            <button class="start-btn" onclick="window.location.href='course-datascience.html'">Start Course</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="assets/images/ai.svg" alt="AI Course">
+                    <div class="course-info">
+                        <h3>Machine Learning A-Z™: AI, Python & R</h3>
+                        <p class="instructor">By Hadelin de Ponteves</p>
+                        <p class="description">Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.</p>
+                        <div class="course-meta">
+                            <span class="rating">★★★★★ 4.5</span>
+                            <span class="students">1.2M students</span>
+                            <span class="price">$199.99</span>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="preview-btn" onclick="openModal('aircAruvnKk')">Watch Preview</button>
+                            <button class="start-btn" onclick="window.location.href='course-ml.html'">Start Course</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="assets/images/react.svg" alt="React Course">
+                    <div class="course-info">
+                        <h3>React - The Complete Guide</h3>
+                        <p class="instructor">By Maximilian Schwarzmüller</p>
+                        <p class="description">Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!</p>
+                        <div class="course-meta">
+                            <span class="rating">★★★★★ 4.6</span>
+                            <span class="students">756K students</span>
+                            <span class="price">$84.99</span>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="preview-btn" onclick="openModal('bMknfKXIFA8')">Watch Preview</button>
+                            <button class="start-btn" onclick="window.location.href='course-react.html'">Start Course</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="assets/images/nodejs.svg" alt="Node.js Course">
+                    <div class="course-info">
+                        <h3>The Complete Node.js Developer Course</h3>
+                        <p class="instructor">By Andrew Mead</p>
+                        <p class="description">Learn Node.js by building real-world applications with Node JS, Express, MongoDB, Jest, and more!</p>
+                        <div class="course-meta">
+                            <span class="rating">★★★★★ 4.7</span>
+                            <span class="students">234K students</span>
+                            <span class="price">$84.99</span>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="preview-btn" onclick="openModal('f2EqECiTBL8')">Watch Preview</button>
+                            <button class="start-btn" onclick="window.location.href='course-nodejs.html'">Start Course</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="assets/images/flutter.svg" alt="Flutter Course">
+                    <div class="course-info">
+                        <h3>Flutter & Dart - The Complete Guide</h3>
+                        <p class="instructor">By Maximilian Schwarzmüller</p>
+                        <p class="description">A Complete Guide to the Flutter SDK & Flutter Framework for building native iOS and Android apps</p>
+                        <div class="course-meta">
+                            <span class="rating">★★★★★ 4.6</span>
+                            <span class="students">189K students</span>
+                            <span class="price">$94.99</span>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="preview-btn" onclick="openModal('VPRjG1sOIlk')">Watch Preview</button>
+                            <button class="start-btn" onclick="window.location.href='course-flutter.html'">Start Course</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="assets/images/aws.svg" alt="AWS Course">
+                    <div class="course-info">
+                        <h3>AWS Certified Solutions Architect</h3>
+                        <p class="instructor">By Stephane Maarek</p>
+                        <p class="description">Pass the AWS Solutions Architect Associate Certification SAA-C03! Complete Amazon Web Services Cloud training</p>
+                        <div class="course-meta">
+                            <span class="rating">★★★★★ 4.7</span>
+                            <span class="students">678K students</span>
+                            <span class="price">$89.99</span>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="preview-btn" onclick="openModal('k1RI5locZE4')">Watch Preview</button>
+                            <button class="start-btn" onclick="window.location.href='course-aws.html'">Start Course</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Why Choose MyCourseHub?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-infinity"></i></div>
+                    <h3>Lifetime Access</h3>
+                    <p>Learn at your own pace with unlimited access to all course materials</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry professionals with years of real-world experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certificates</h3>
+                    <p>Earn recognized certificates upon successful course completion</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile Learning</h3>
+                    <p>Access courses anywhere, anytime on any device</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-wrapper">
+                <div class="stat-item">
+                    <h3>50,000+</h3>
+                    <p>Students Enrolled</p>
+                </div>
+                <div class="stat-item">
+                    <h3>200+</h3>
+                    <p>Expert Courses</p>
+                </div>
+                <div class="stat-item">
+                    <h3>98%</h3>
+                    <p>Success Rate</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Support Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-header">
+                <h3 id="modalTitle">Course Preview</h3>
+            </div>
+            <iframe id="videoFrame" src="" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MyCourseHub</h4>
+                    <p>Empowering learners worldwide with quality education and expert-led courses.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MyCourseHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

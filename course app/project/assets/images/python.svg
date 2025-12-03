@@ -1,0 +1,30 @@
+<svg width="400" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pythonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pythonAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#pythonBg)"/>
+  
+  <!-- Python logo elements -->
+  <circle cx="100" cy="70" r="20" fill="url(#pythonAccent)" opacity="0.8"/>
+  <circle cx="300" cy="150" r="25" fill="#3776ab" opacity="0.6"/>
+  
+  <!-- Code brackets -->
+  <text x="50" y="120" font-family="monospace" font-size="40" fill="rgba(255,255,255,0.3)" font-weight="bold">{</text>
+  <text x="330" y="120" font-family="monospace" font-size="40" fill="rgba(255,255,255,0.3)" font-weight="bold">}</text>
+  
+  <!-- Main text -->
+  <text x="200" y="80" font-family="Inter, Arial" font-size="32" font-weight="700" fill="white" text-anchor="middle">Python</text>
+  <text x="200" y="110" font-family="Inter, Arial" font-size="18" fill="rgba(255,255,255,0.9)" text-anchor="middle">Complete Bootcamp</text>
+  
+  <!-- Features -->
+  <rect x="80" y="140" width="240" height="2" fill="url(#pythonAccent)" opacity="0.6"/>
+  <text x="200" y="165" font-family="Inter, Arial" font-size="14" fill="rgba(255,255,255,0.8)" text-anchor="middle">Zero to Hero • 100+ Exercises</text>
+  <text x="200" y="185" font-family="Inter, Arial" font-size="12" fill="rgba(255,255,255,0.6)" text-anchor="middle">★★★★★ 4.8 Rating • 50,000+ Students</text>
+</svg>

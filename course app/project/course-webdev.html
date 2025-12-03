@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Web Development Bootcamp - MyCourseHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="course-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MyCourseHub</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#courses">Courses</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Course Header -->
+    <section class="course-header">
+        <div class="container">
+            <div class="course-header-content">
+                <div class="course-info">
+                    <h1>Complete Web Development Bootcamp</h1>
+                    <p class="instructor">By Rob Percival & Web Dev Experts</p>
+                    <p class="description">Learn to build websites and web applications from scratch using HTML, CSS, JavaScript, React, Node.js and more!</p>
+                    <div class="course-stats">
+                        <span><i class="fas fa-star"></i> 4.5 (890K students)</span>
+                        <span><i class="fas fa-clock"></i> 60+ hours</span>
+                        <span><i class="fas fa-video"></i> 30 lessons</span>
+                        <span><i class="fas fa-certificate"></i> Certificate included</span>
+                    </div>
+                </div>
+                <div class="course-video">
+                    <iframe id="mainVideo" src="https://www.youtube.com/embed/UB1O30fR-EE?enablejsapi=1&rel=0&modestbranding=1&playsinline=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content -->
+    <section class="course-content">
+        <div class="container">
+            <div class="content-layout">
+                <!-- Video Playlist -->
+                <div class="video-playlist">
+                    <h2>Course Curriculum</h2>
+                    
+                    <div class="section-group">
+                        <h3>Section 1: HTML Fundamentals</h3>
+                        <div class="video-item active" onclick="playVideo('UB1O30fR-EE', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>HTML Tutorial - Website Crash Course</h4>
+                                <span>1:00:41</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('UB1O30fR-EE', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>HTML CSS JavaScript - Full Course</h4>
+                                <span>4:06:27</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('pQN-pnXPaVg', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>HTML5 Complete Course</h4>
+                                <span>2:15:20</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 2: CSS Styling</h3>
+                        <div class="video-item" onclick="playVideo('yfoY53QXEnI', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>CSS Tutorial - Zero to Hero</h4>
+                                <span>6:18:36</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('1Rs2ND1ryYc', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>CSS Flexbox Tutorial</h4>
+                                <span>1:17:46</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('jx5jmI0UlXU', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>CSS Grid Tutorial</h4>
+                                <span>2:03:04</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 3: JavaScript Programming</h3>
+                        <div class="video-item" onclick="playVideo('PkZNo7MFNFg', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>JavaScript Tutorial for Beginners</h4>
+                                <span>3:26:42</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('hdI2bqOjy3c', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>JavaScript Crash Course</h4>
+                                <span>1:40:17</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('W6NZfCO5SIk', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>JavaScript Projects for Beginners</h4>
+                                <span>8:22:05</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 4: React.js</h3>
+                        <div class="video-item" onclick="playVideo('Tn6-PIqc4UM', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>React Course - Beginner's Tutorial</h4>
+                                <span>2:25:39</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('bMknfKXIFA8', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>React Tutorial for Beginners</h4>
+                                <span>1:48:18</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-group">
+                        <h3>Section 5: Backend Development</h3>
+                        <div class="video-item" onclick="playVideo('TlB_eWDSMt4', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Node.js Tutorial for Beginners</h4>
+                                <span>1:08:35</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-item" onclick="playVideo('L72fhGm1tfE', this)">
+                            <div class="video-thumb">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-info">
+                                <h4>Express.js & Node.js Course</h4>
+                                <span>8:16:48</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Sidebar -->
+                <div class="course-sidebar">
+                    <div class="progress-card">
+                        <h3>Your Progress</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 0%"></div>
+                        </div>
+                        <span class="progress-text">0% Complete</span>
+                    </div>
+
+                    <div class="course-features">
+                        <h3>What You'll Learn</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> HTML5 & CSS3 fundamentals</li>
+                            <li><i class="fas fa-check"></i> JavaScript programming</li>
+                            <li><i class="fas fa-check"></i> React.js for frontend</li>
+                            <li><i class="fas fa-check"></i> Node.js & Express backend</li>
+                            <li><i class="fas fa-check"></i> Responsive web design</li>
+                            <li><i class="fas fa-check"></i> Build full-stack applications</li>
+                        </ul>
+                    </div>
+
+                    <div class="course-resources">
+                        <h3>Resources</h3>
+                        <a href="#" class="resource-link"><i class="fas fa-code"></i> VS Code Setup</a>
+                        <a href="#" class="resource-link"><i class="fas fa-download"></i> Project Files</a>
+                        <a href="#" class="resource-link"><i class="fas fa-book"></i> MDN Documentation</a>
+                        <a href="#" class="resource-link"><i class="fas fa-users"></i> Developer Community</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        function playVideo(videoId, element) {
+            document.getElementById('mainVideo').src = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&rel=0&modestbranding=1&playsinline=1&autoplay=1`;
+            document.querySelectorAll('.video-item').forEach(item => item.classList.remove('active'));
+            element.classList.add('active');
+            
+            const totalVideos = document.querySelectorAll('.video-item').length;
+            const watchedVideos = Array.from(document.querySelectorAll('.video-item')).indexOf(element) + 1;
+            const progress = (watchedVideos / totalVideos) * 100;
+            
+            document.querySelector('.progress').style.width = progress + '%';
+            document.querySelector('.progress-text').textContent = Math.round(progress) + '% Complete';
+        }
+    </script>
+</body>
+</html>
